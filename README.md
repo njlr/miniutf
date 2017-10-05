@@ -41,3 +41,13 @@ License
 -------
 
 MIT (see LICENSE.txt)
+
+Build Instructions
+------------------
+
+miniutf can be built using [Buck](https://buckbuild.com):
+
+```
+buck build :miniutf
+buck run :test
+```

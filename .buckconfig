@@ -1,0 +1,7 @@
+[project]
+  ignore = .git, .buckd
+
+[cxx]
+  cxxflags = -std=c++11
+  untracked_headers = warn
+  untracked_headers_whitelist = /usr/local/Cellar/llvm/.*, /usr/include/.*
